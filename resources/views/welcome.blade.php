@@ -79,7 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Clonismo de {{$nombre}} {{$apellido}}
+                    @if (is_null($nombre) || is_null($apellido))
+                        No tengo a quien saludar
+                    @else
+                        Clonismo de {{$nombre}} {{$apellido}}
+                    @endif
                 </div>
 
                 <div class="links">
