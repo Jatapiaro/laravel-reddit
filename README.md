@@ -10,6 +10,7 @@ Pasos de instalación de Laravel (Usando Ampps):
     -Tokenizer PHP Extension.
     -Zip.so
     -Ctype
+    -Mcrypt.so
 3. export AMPPS_PHP=/Applications/AMPPS/php/bin
 4. export PATH="$AMPPS_PHP:$PATH"
 5. sudo curl -sS https://getcomposer.org/installer | php
