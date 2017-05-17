@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome',['nombre'=>null,'apellido'=>'Tapia']);
+    return view('welcome',['nombre'=>null,'apellido'=>null]);
 });
 
 

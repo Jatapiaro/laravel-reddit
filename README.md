@@ -19,3 +19,4 @@ Pasos de instalación de Laravel (Usando Ampps):
 7. export PATH="~/.composer/vendor/bin:$PATH"
 8. echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' > ~/.bashrc
 9. source ~/.bashrc
+10. No olvides hacer 'comsposer install' y hacer copy paste de tu .env de ser necesario 
