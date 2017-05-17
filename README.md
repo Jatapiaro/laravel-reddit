@@ -20,3 +20,9 @@ Pasos de instalación de Laravel (Usando Ampps):
 8. echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' > ~/.bashrc
 9. source ~/.bashrc
 10. No olvides hacer 'comsposer install' y hacer copy paste de tu .env de ser necesario 
+
+--------
+
+touch database/database.sqlite para crear base de datos(cambiar antes a sqlite)
+composer dump-autoload por si borras alguna migración
+php artisan make:migration --create=posts se crea una tabla con un nombre y atributos definidos como id y timestamp
