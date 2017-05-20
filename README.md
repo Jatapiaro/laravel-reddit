@@ -23,9 +23,9 @@ Pasos de instalación de Laravel (Usando Ampps):
 
 --------
 
-touch database/database.sqlite para crear base de datos(cambiar antes a sqlite)
-composer dump-autoload por si borras alguna migración
-php artisan make:migration --create=posts se crea una tabla con un nombre y atributos definidos como id y timestamp
+11. touch database/database.sqlite para crear base de datos(cambiar antes a sqlite)
+12. composer dump-autoload por si borras alguna migración
+13. php artisan make:migration --create=posts se crea una tabla con un nombre y atributos definidos como id y timestamp
 
 
-php artison make:request CreatePostRequest genera un request custom para validaciones
+14. php artison make:request CreatePostRequest genera un request custom para validaciones
