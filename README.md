@@ -29,3 +29,9 @@ Pasos de instalación de Laravel (Usando Ampps):
 
 
 14. php artison make:request CreatePostRequest genera un request custom para validaciones
+
+-----
+Por si se aloca
+
+export AMPPS_PHP=/Applications/AMPPS/php/bin
+export PATH="$AMPPS_PHP:$PATH"
